@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- HISTORY PANEL -->
+    <div class="history-panel" id="historyPanel">
+      <div class="history-header">
+        <span>📋 History</span>
+        <button id="clearHistory">Clear</button>
+      </div>
+      <ul id="historyList"></ul>
+    </div>
+
+    <!-- CALCULATOR -->
+    <div class="calculator" id="calculator">
+
+      <!-- TOP BAR -->
+      <div class="top-bar">
+        <button class="mode-btn" id="sciToggle">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+          Scientific
+        </button>
+        <div class="top-right">
+          <button class="hist-toggle" id="histToggle" title="History">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </button>
+          <button class="theme-btn" id="themeToggle" title="Toggle theme">
+            <svg id="themeIcon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- DISPLAY -->
+      <div class="display">
+        <div class="op-indicator" id="opIndicator"></div>
+        <div class="expression" id="expression"></div>
+        <div class="result" id="result">0</div>
+      </div>
+
+      <!-- SCIENTIFIC ROWS (hidden by default) -->
+      <div class="sci-buttons" id="sciButtons">
+        <button class="btn sci" data-sci="sin">sin</button>
+        <button class="btn sci" data-sci="cos">cos</button>
+        <button class="btn sci" data-sci="tan">tan</button>
+        <button class="btn sci" data-sci="log">log</button>
+        <button class="btn sci" data-sci="ln">ln</button>
+        <button class="btn sci" data-sci="sqrt">√</button>
+        <button class="btn sci" data-sci="sq">x²</button>
+        <button class="btn sci" data-sci="pow">xʸ</button>
+        <button class="btn sci" data-sci="pi">π</button>
+        <button class="btn sci" data-sci="e">e</button>
+        <button class="btn sci" data-sci="(">(</button>
+        <button class="btn sci" data-sci=")">)</button>
+      </div>
+
+      <!-- STANDARD BUTTONS -->
+      <div class="buttons">
+        <button class="btn btn-clear span2" data-action="clear">AC</button>
+        <button class="btn btn-delete" data-action="delete">⌫</button>
+        <button class="btn btn-percent" data-value="%">%</button>
+        <button class="btn btn-op" data-value="/">÷</button>
+
+        <button class="btn btn-num" data-value="7">7</button>
+        <button class="btn btn-num" data-value="8">8</button>
+        <button class="btn btn-num" data-value="9">9</button>
+        <button class="btn btn-op" data-value="*">×</button>
+
+        <button class="btn btn-num" data-value="4">4</button>
+        <button class="btn btn-num" data-value="5">5</button>
+        <button class="btn btn-num" data-value="6">6</button>
+        <button class="btn btn-op" data-value="-">−</button>
+
+        <button class="btn btn-num" data-value="1">1</button>
+        <button class="btn btn-num" data-value="2">2</button>
+        <button class="btn btn-num" data-value="3">3</button>
+        <button class="btn btn-op" data-value="+">+</button>
+
+        <button class="btn btn-sign" data-value="+/-">+/−</button>
+        <button class="btn btn-num span2" data-value="0">0</button>
+        <button class="btn btn-dot" data-value=".">.</button>
+        <button class="btn btn-equals span2" data-action="equals">=</button>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
