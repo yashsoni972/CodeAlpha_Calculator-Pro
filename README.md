@@ -4,9 +4,13 @@ A professional, feature-rich calculator built with pure HTML, CSS, and JavaScrip
 
 ---
 
-## Live Preview
+## Live Demo
 
-Open `index.html` in any modern browser. No setup, no install needed.
+🔗 **[https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro](https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro)**
+
+> Replace `YOUR_USERNAME` with your GitHub username after deploying.
+
+Or open `index.html` locally in any modern browser — no setup, no install needed.
 
 ---
 
