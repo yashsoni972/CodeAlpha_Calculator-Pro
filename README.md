@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-6366f1?style=for-the-badge)](https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-6366f1?style=for-the-badge)](https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/)
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 ### ☀️ Light Mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌙 Dark Mode
 
-<img src="screenshots/light-mode.png" width="45%" alt="Calculator Pro - Light Mode"/> &nbsp;&nbsp; <img src="screenshots/dark-mode.png" width="45%" alt="Calculator Pro - Dark Mode"/>
+<img src="lightmode.png" width="45%" alt="Calculator Pro - Light Mode"/> &nbsp;&nbsp; <img src="darkmode.png" width="45%" alt="Calculator Pro - Dark Mode"/>
 
 </div>
 
@@ -41,16 +41,17 @@
 | 🔬 **Scientific Mode** | sin, cos, tan, log, ln, √, x², xʸ, π, e, parentheses |
 | 🎨 **Dark / Light Theme** | Toggle between themes with smooth transitions |
 | 📋 **Calculation History** | Stores last 50 calculations with localStorage |
-| 🔊 **Sound Effects** | Unique tones for digits, operators, equals & errors |
+| 🔊 **Sound Effects** | Professional click tones for digits, operators, equals & errors |
 | ⌨️ **Keyboard Support** | Full keyboard input support |
 | 💥 **Ripple Effects** | Material-style ripple on every button press |
-| 📱 **Responsive Design** | Works great on desktop and mobile |
+| 🎯 **Operation Indicator** | Live label shows ADD / SUBTRACT / MULTIPLY / DIVIDE |
+| 🎨 **Multi-Color Buttons** | Each button group has its own distinct color |
 
 ---
 
 ## 🚀 Live Demo
 
-👉 **[https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/](https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/)**
+👉 **[https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/](https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/)**
 
 ---
 
@@ -66,13 +67,12 @@
 
 ```
 CodeAlpha_Calculator-Pro/
-├── index.html              # Main HTML structure
-├── style.css               # Themes, layout & animations
-├── script.js               # Logic, audio engine & keyboard support
-├── screenshots/
-│   ├── light-mode.png      # Light theme preview
-│   └── dark-mode.png       # Dark theme preview
-└── README.md               # You are here!
+├── index.html        # Main HTML structure
+├── style.css         # Themes, layout & animations
+├── script.js         # Logic, audio engine & keyboard support
+├── lightmode.png     # Light theme preview
+├── darkmode.png      # Dark theme preview
+└── README.md         # You are here!
 ```
 
 ---
@@ -81,7 +81,7 @@ CodeAlpha_Calculator-Pro/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yashsoni972/CodeAlpha_Calculator-Pro.git
+git clone https://github.com/YOUR_USERNAME/CodeAlpha_Calculator-Pro.git
 
 # 2. Open in browser
 cd CodeAlpha_Calculator-Pro
@@ -92,14 +92,14 @@ No dependencies. No build tools. Just open and use! 🎉
 
 ---
 
-## 🌐 Live Demo Setup (GitHub Pages)
+## 🌐 Enable Live Demo (GitHub Pages)
 
 ```
 Go to your repo on GitHub:
-Settings → Pages → Source → Deploy from branch → main → / (root) → Save
+Settings → Pages → Branch → main → / (root) → Save
 
 Your site will be live at:
-https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
+https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/
 ```
 
 ---
@@ -109,7 +109,7 @@ https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 - **Numbers & Operators** — Click buttons or use your keyboard
 - **Scientific Mode** — Click the `Scientific` button to expand extra functions
 - **History** — Click the 🕐 icon to view past calculations; click any entry to reuse it
-- **Theme** — Click the 🌙/☀️ icon to toggle dark/light mode
+- **Theme** — Click the moon/sun icon to toggle dark/light mode
 
 **Keyboard Shortcuts:**
 
@@ -117,6 +117,7 @@ https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 |-----|--------|
 | `0-9` | Input digits |
 | `+ - * /` | Operators |
+| `%` | Percent |
 | `Enter` or `=` | Calculate |
 | `Backspace` | Delete last digit |
 | `Escape` | Clear all |
@@ -128,13 +129,3 @@ https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 **Yash Soni**
 - GitHub: [@yashsoni972](https://github.com/yashsoni972)
 - LinkedIn: [Yash Soni](https://www.linkedin.com/in/yash-soni-b46682355/)
-
----
-
-<div align="center">
-
-Made with as part of **CodeAlpha Frontend Internship**
-
-⭐ Star this repo if you found it useful!
-
-</div>
