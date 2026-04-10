@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-6366f1?style=for-the-badge)](https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-6366f1?style=for-the-badge)](https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/)
 
 <br/>
 
@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo
 
-👉 **[https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/](https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/)**
+👉 **[https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/](https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/)**
 
 ---
 
@@ -81,7 +81,7 @@ CodeAlpha_Calculator-Pro/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_Calculator-Pro.git
+git clone https://github.com/yashsoni972/CodeAlpha_Calculator-Pro.git
 
 # 2. Open in browser
 cd CodeAlpha_Calculator-Pro
@@ -99,7 +99,7 @@ Go to your repo on GitHub:
 Settings → Pages → Branch → main → / (root) → Save
 
 Your site will be live at:
-https://YOUR_USERNAME.github.io/CodeAlpha_Calculator-Pro/
+https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 ```
 
 ---
