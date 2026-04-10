@@ -127,7 +127,7 @@ https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 
 **Yash Soni**
 - GitHub: [@yashsoni972](https://github.com/yashsoni972)
-- LinkedIn: [Yash Soni](https://linkedin.com/in/yash-soni)
+- LinkedIn: [Yash Soni](https://www.linkedin.com/in/yash-soni-b46682355/)
 
 ---
 
