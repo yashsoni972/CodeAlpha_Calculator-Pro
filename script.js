@@ -43,7 +43,19 @@ const histToggle   = document.getElementById('histToggle');
 const clearHistBtn = document.getElementById('clearHistory');
 const sciToggle    = document.getElementById('sciToggle');
 const sciButtons   = document.getElementById('sciButtons');
-const themeToggle  = document.getElementById('themeToggle');
+const histBackdrop  = document.getElementById('histBackdrop');
+
+function openHistory() {
+  historyPanel.classList.add('open');
+  if (window.innerWidth <= 480) histBackdrop.classList.add('show');
+}
+
+function closeHistory() {
+  historyPanel.classList.remove('open');
+  histBackdrop.classList.remove('show');
+}
+
+histBackdrop.addEventListener('click', closeHistory);
 
 // ── STATE ────────────────────────────────────────────────
 let current    = '0';
@@ -215,14 +227,16 @@ historyList.addEventListener('click', e => {
   current = history[li.dataset.index].res;
   expression = ''; justEvaled = true;
   updateDisplay();
-  historyPanel.classList.remove('open');
+  closeHistory();
 });
 
 clearHistBtn.addEventListener('click', () => {
   history = []; localStorage.removeItem('calc-history'); renderHistory();
 });
 
-histToggle.addEventListener('click', () => historyPanel.classList.toggle('open'));
+histToggle.addEventListener('click', () => {
+  historyPanel.classList.contains('open') ? closeHistory() : openHistory();
+});
 
 // ── SCIENTIFIC TOGGLE ────────────────────────────────────
 sciToggle.addEventListener('click', () => {
