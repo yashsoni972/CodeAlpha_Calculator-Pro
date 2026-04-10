@@ -131,12 +131,6 @@ https://yashsoni972.github.io/CodeAlpha_Calculator-Pro/
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 <div align="center">
 
 Made with as part of **CodeAlpha Frontend Internship**
@@ -144,4 +138,3 @@ Made with as part of **CodeAlpha Frontend Internship**
 ⭐ Star this repo if you found it useful!
 
 </div>
-
